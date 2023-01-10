@@ -28,6 +28,31 @@ DISTRO=$(grep -Po "(?<=^ID=).+" /etc/os-release | sed 's/"//g')
 case $DISTRO in
   arch) ICON="" ;;
   void) ICON="" ;;
+  centos) ICON="" ;;
+  ubuntu) ICON="" ;;
+  fedora) ICON="" ;;
+  alpine) ICON="" ;;
+  artix) ICON="" ;;
+  gentoo) ICON="" ;;
+  debian) ICON="" ;;
+  mint) ICON="" ;;
+  manjaro) ICON="" ;;
+  popos) ICON="" ;;
+  parrot) ICON="" ;;
+  kali) ICON="" ;;
+  guix) ICON="" ;;
+  nixos) ICON="" ;;
+  endeavour) ICON="" ;;
+  deepin) ICON="" ;;
+  archlabs) ICON="" ;;
+  almalinux) ICON="" ;;
+  raspberry_pi) ICON="" ;;
+  redhat) ICON="" ;;
+  slackware) ICON="" ;;
+  zorin) ICON="" ;;
+  elementary) ICON="" ;;
+  solus) ICON="" ;;
+  rocky_linux) ICON="" ;;
   *) ICON="" ;;
 esac
 

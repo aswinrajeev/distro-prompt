@@ -16,6 +16,31 @@ plug "MAHcodes/distro-prompt"
 ## Supported Operating Systems
 - Arch Linux
 - Void Linux
+- CentOS
+- Ubuntu
+- Fedora
+- Alpine Linux
+- Artix Linux
+- Gentoo Linux
+- Debian
+- Linux Mint
+- Manjaro
+- Pop!_OS
+- Parrot OS
+- Kali Linux
+- GNU Guix
+- NixOS
+- EndeavourOS
+- Deepin
+- Archlabs Linux
+- Alma Linux OS
+- RaspberryPI
+- RedHat Linux
+- Slackware
+- Zorin OS
+- Elementary OS
+- Solus
+- Rocky Linux
 
 ## Preview
 - Font: JetBrains Mono Regular Nerd Font Complete Mono
