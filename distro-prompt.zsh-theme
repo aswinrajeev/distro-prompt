@@ -24,18 +24,19 @@ zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:git:*' formats " %{$fg[blue]%}(%{$fg[red]%}%m%u%c%{$fg[yellow]%}%{$fg[magenta]%} %b%{$fg[blue]%})%{$reset_color%}"
 
 DISTRO=$(grep -Po "(?<=^ID=).+" /etc/os-release | sed 's/"//g')
+DISTRO=budgie
 
 case $DISTRO in
   arch) ICON="" ;;
   void) ICON="" ;;
   centos) ICON="" ;;
   ubuntu) ICON="" ;;
-  fedora) ICON="" ;;
+  fedora) ICON="" ;;
   alpine) ICON="" ;;
   artix) ICON="" ;;
   gentoo) ICON="" ;;
   debian) ICON="" ;;
-  mint) ICON="" ;;
+  mint) ICON="" ;;
   manjaro) ICON="" ;;
   popos) ICON="" ;;
   parrot) ICON="" ;;
@@ -48,11 +49,16 @@ case $DISTRO in
   almalinux) ICON="" ;;
   raspberry_pi) ICON="" ;;
   redhat) ICON="" ;;
-  slackware) ICON="" ;;
+  slackware) ICON="" ;;
   zorin) ICON="" ;;
   elementary) ICON="" ;;
   solus) ICON="" ;;
   rocky_linux) ICON="" ;;
+  apple) ICON="" ;;
+  freebsd) ICON="" ;;
+  opensuse) ICON="" ;;
+  openbsd) ICON="" ;;
+  budgie) ICON="" ;;
   *) ICON="" ;;
 esac
 
