@@ -13,6 +13,16 @@ It renders your OS icon ( ➜) followed by the CWD followed by VCS info (if i
 plug "MAHcodes/distro-prompt"
 ```
 
+## Preview
+- Font: JetBrains Mono Regular Nerd Font Complete Mono
+- Theme: Catppuccin Mocha
+
+- OS: Void Linux
+![image](https://user-images.githubusercontent.com/69465962/211437158-15a0126d-1997-4ff4-b88e-fe3af6a10601.png)
+
+- OS: Arch Linux
+![image](https://user-images.githubusercontent.com/69465962/211437101-07e66df2-6830-4412-af48-c4735a65fe63.png)
+
 ## Supported Operating Systems
 - Arch Linux
 - Void Linux
@@ -41,13 +51,3 @@ plug "MAHcodes/distro-prompt"
 - Elementary OS
 - Solus
 - Rocky Linux
-
-## Preview
-- Font: JetBrains Mono Regular Nerd Font Complete Mono
-- Theme: Catppuccin Mocha
-
-- OS: Void Linux
-![image](https://user-images.githubusercontent.com/69465962/211437158-15a0126d-1997-4ff4-b88e-fe3af6a10601.png)
-
-- OS: Arch Linux
-![image](https://user-images.githubusercontent.com/69465962/211437101-07e66df2-6830-4412-af48-c4735a65fe63.png)
