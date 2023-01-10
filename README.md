@@ -73,13 +73,17 @@ plug "MAHcodes/distro-prompt"
   ![image](https://user-images.githubusercontent.com/69465962/211444839-7a81c561-7180-41a1-8f65-d2fd8a2c3e02.png)
 - Rocky Linux
   ![image](https://user-images.githubusercontent.com/69465962/211444871-301915a5-62a0-4698-9aec-0bd56d8fa312.png)
-- Apple
+- OpenSUSE
+  ![image](https://user-images.githubusercontent.com/69465962/211445285-7ad704c6-6b73-4c06-8aa2-f7eb9c9eb564.png)
+- Budgie
+  ![image](https://user-images.githubusercontent.com/69465962/211445540-b1fc82a5-5c45-4019-be42-44a0d133fcf5.png)
+- MacOS
   ![image](https://user-images.githubusercontent.com/69465962/211444950-5c6d1a55-0da6-401d-ace6-57502d9da4c7.png)
 - FreeBSD
   ![image](https://user-images.githubusercontent.com/69465962/211445063-1f96bc49-2cb7-4386-85f5-0b5be4075180.png)
 - OpenBSD
   ![image](https://user-images.githubusercontent.com/69465962/211445186-5db9dba5-e7d3-4005-80f4-6d91964dc343.png)
-- OpenSUSE
-  ![image](https://user-images.githubusercontent.com/69465962/211445285-7ad704c6-6b73-4c06-8aa2-f7eb9c9eb564.png)
-- Budgie
-  ![image](https://user-images.githubusercontent.com/69465962/211445540-b1fc82a5-5c45-4019-be42-44a0d133fcf5.png)
+- Android
+  ![image](https://user-images.githubusercontent.com/69465962/211625604-fcef12b5-0686-4d38-904a-b2e37e3c2875.png)
+- Windows
+  ![image](https://user-images.githubusercontent.com/69465962/211625428-42d2fe65-380b-4a32-80d1-8deb11060614.png)

@@ -23,43 +23,57 @@ zstyle ':vcs_info:git*+set-message:*' hooks git-untracked
 zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:git:*' formats " %{$fg[blue]%}(%{$fg[red]%}%m%u%c%{$fg[yellow]%}%{$fg[magenta]%} %b%{$fg[blue]%})%{$reset_color%}"
 
-DISTRO=$(awk -F= '/^ID=/ {print $2}' /etc/os-release 2> /dev/null | sed 's/"//g')
+OS=$(uname -or)
 
-case $DISTRO in
-  arch) ICON="" ;;
-  void) ICON="" ;;
-  centos) ICON="" ;;
-  ubuntu) ICON="" ;;
-  fedora) ICON="" ;;
-  alpine) ICON="" ;;
-  artix) ICON="" ;;
-  gentoo) ICON="" ;;
-  debian) ICON="" ;;
-  mint) ICON="" ;;
-  manjaro) ICON="" ;;
-  popos) ICON="" ;;
-  parrot) ICON="" ;;
-  kali) ICON="" ;;
-  guix) ICON="" ;;
-  nixos) ICON="" ;;
-  endeavour) ICON="" ;;
-  deepin) ICON="" ;;
-  archlabs) ICON="" ;;
-  almalinux) ICON="" ;;
-  raspberry_pi) ICON="" ;;
-  redhat) ICON="" ;;
-  slackware) ICON="" ;;
-  zorin) ICON="" ;;
-  elementary) ICON="" ;;
-  solus) ICON="" ;;
-  rocky_linux) ICON="" ;;
-  apple) ICON="" ;;
-  freebsd) ICON="" ;;
-  opensuse) ICON="" ;;
-  openbsd) ICON="" ;;
-  budgie) ICON="" ;;
-  *) ICON="" ;;
+case $OS in
+    *Darwin*) ICON="" ;;
+    *Android*) ICON="" ;;
+    *microsoft*) ICON="" ;;
+    *BSD*) 
+      DISTRO=$(uname -s)
+      case $DISTRO in
+        *FreeBSD*) ICON="" ;;
+        *OpenBSD*) ICON="" ;;
+      esac
+    ;;
+    *Linux*) 
+      DISTRO=$(awk -F= '/^ID=/ {print $2}' /etc/os-release 2> /dev/null | sed 's/"//g')
+      case $DISTRO in
+        arch) ICON="" ;;
+        void) ICON="" ;;
+        centos) ICON="" ;;
+        ubuntu) ICON="" ;;
+        fedora) ICON="" ;;
+        alpine) ICON="" ;;
+        artix) ICON="" ;;
+        gentoo) ICON="" ;;
+        debian) ICON="" ;;
+        mint) ICON="" ;;
+        manjaro) ICON="" ;;
+        popos) ICON="" ;;
+        parrot) ICON="" ;;
+        kali) ICON="" ;;
+        guix) ICON="" ;;
+        nixos) ICON="" ;;
+        endeavour) ICON="" ;;
+        deepin) ICON="" ;;
+        archlabs) ICON="" ;;
+        almalinux) ICON="" ;;
+        raspberry_pi) ICON="" ;;
+        redhat) ICON="" ;;
+        slackware) ICON="" ;;
+        zorin) ICON="" ;;
+        elementary) ICON="" ;;
+        solus) ICON="" ;;
+        rocky_linux) ICON="" ;;
+        opensuse) ICON="" ;;
+        budgie) ICON="" ;;
+        *) ICON="" ;;
+      esac
+      ;;
+    *) ICON="" ;;
 esac
+
 
 PROMPT="%B%{$fg[yellow]%} $ICON % %(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )%{$fg[cyan]%}%c%{$reset_color%}"
 PROMPT+="\$vcs_info_msg_0_ "
