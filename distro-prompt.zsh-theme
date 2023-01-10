@@ -23,7 +23,7 @@ zstyle ':vcs_info:git*+set-message:*' hooks git-untracked
 zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:git:*' formats " %{$fg[blue]%}(%{$fg[red]%}%m%u%c%{$fg[yellow]%}%{$fg[magenta]%} %b%{$fg[blue]%})%{$reset_color%}"
 
-DISTRO=$(awk -F '=' '/^ID=/{print $2}' /etc/*-release)
+DISTRO=$(grep -Po "(?<=^ID=).+" /etc/os-release | sed 's/"//g')
 
 case $DISTRO in
   arch) ICON="" ;;
