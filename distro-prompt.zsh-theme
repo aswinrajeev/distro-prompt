@@ -31,6 +31,6 @@ case $DISTRO in
   *) ICON="" ;;
 esac
 
-PROMPT="%B%{$fg[yellow]%}$ICON % %(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )%{$fg[cyan]%}%c%{$reset_color%}"
+PROMPT="%B%{$fg[yellow]%} $ICON % %(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )%{$fg[cyan]%}%c%{$reset_color%}"
 PROMPT+="\$vcs_info_msg_0_ "
 ROMPT+="\$vcs_info_msg_0_ "

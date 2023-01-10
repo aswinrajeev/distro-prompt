@@ -18,7 +18,11 @@ plug "MAHcodes/distro-prompt"
 - Void Linux
 
 ## Preview
-- OS: Void Linux
 - Font: JetBrains Mono Regular Nerd Font Complete Mono
-- Theme: Catppuccin
-![image](https://user-images.githubusercontent.com/69465962/211435238-acce1891-346e-424e-a528-1a81c404cd85.png)
+- Theme: Catppuccin Mocha
+
+- OS: Void Linux
+![image](https://user-images.githubusercontent.com/69465962/211437158-15a0126d-1997-4ff4-b88e-fe3af6a10601.png)
+
+- OS: Arch Linux
+![image](https://user-images.githubusercontent.com/69465962/211437101-07e66df2-6830-4412-af48-c4735a65fe63.png)
