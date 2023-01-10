@@ -24,7 +24,6 @@ zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:git:*' formats " %{$fg[blue]%}(%{$fg[red]%}%m%u%c%{$fg[yellow]%}%{$fg[magenta]%} %b%{$fg[blue]%})%{$reset_color%}"
 
 DISTRO=$(grep -Po "(?<=^ID=).+" /etc/os-release | sed 's/"//g')
-DISTRO=budgie
 
 case $DISTRO in
   arch) ICON="" ;;
