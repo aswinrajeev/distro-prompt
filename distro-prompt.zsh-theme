@@ -66,7 +66,7 @@ case $OS in
         elementary) ICON="" ;;
         solus) ICON="" ;;
         rocky_linux) ICON="" ;;
-        opensuse) ICON="" ;;
+        opensuse*) ICON="" ;;
         budgie) ICON="" ;;
         *) ICON="" ;;
       esac
