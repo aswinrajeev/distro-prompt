@@ -1,5 +1,5 @@
 # distro-prompt
-A simple theme to use based on [zap](https://github.com/zap-zsh/zap-prompt)
+A simple theme to use based on [zap-prompt](https://github.com/zap-zsh/zap-prompt)
 <br>
 <br>
 It renders your OS icon ( ➜) followed by the CWD followed by VCS info (if in a repo directory)
@@ -8,7 +8,7 @@ It renders your OS icon ( ➜) followed by the CWD followed by VCS info (if i
 - [Nerd Font](https://github.com/ryanoasis/nerd-fonts)
 
 ## Installation
-- using [zap](https://github.com/zap-zsh/zap-prompt) plugin manager
+- using [zap](https://github.com/zap-zsh/zap) plugin manager
 ```
 plug "MAHcodes/distro-prompt"
 ```
