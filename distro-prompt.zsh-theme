@@ -1,4 +1,3 @@
-
 #!/bin/zsh
 
 autoload -Uz vcs_info
@@ -39,7 +38,7 @@ case $OS in
     *Linux*) 
       DISTRO=$(awk -F= '/^ID=/ {print $2}' /etc/os-release 2> /dev/null | sed 's/"//g')
       case $DISTRO in
-        arch) ICON="" ;;
+        arch|archarm) ICON="" ;;
         void) ICON="" ;;
         centos) ICON="" ;;
         ubuntu) ICON="" ;;
