@@ -20,7 +20,7 @@ zstyle ':vcs_info:git*+set-message:*' hooks git-untracked
 }
 
 zstyle ':vcs_info:*' check-for-changes true
-zstyle ':vcs_info:git:*' formats " %{$fg[blue]%}(%{$fg[red]%}%m%u%c%{$fg[yellow]%}%{$fg[magenta]%} %b%{$fg[blue]%})%{$reset_color%}"
+zstyle ':vcs_info:git:*' formats " %{$fg[yellow]%}(%{$fg[yellow]%}%{$fg[green]%} %b%{$fg[yellow]%})%{$reset_color%}"
 
 OS=$(uname -or)
 
@@ -73,6 +73,6 @@ case $OS in
 esac
 
 
-PROMPT="%B%{$fg[yellow]%} $ICON % %(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )%{$fg[cyan]%}%c%{$reset_color%}"
+PROMPT="%B%{$fg[white]%} $ICON % %(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )%{$fg[grey]%}%c%{$reset_color%}"
 PROMPT+="\$vcs_info_msg_0_ "
 ROMPT+="\$vcs_info_msg_0_ "
