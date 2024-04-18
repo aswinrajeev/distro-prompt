@@ -73,6 +73,6 @@ case $OS in
 esac
 
 
-PROMPT="%B%{$fg[grey]%} $ICON % %(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )%{$fg[white]%}%c%{$reset_color%}"
+PROMPT="%B%{$fg[grey]%} $ICON % %(?:%{$fg_bold[green]%}➜ :%{$fg[red]%}➜ )%{$fg[white]%}%c%{$reset_color%}"
 PROMPT+="\$vcs_info_msg_0_ "
 ROMPT+="\$vcs_info_msg_0_ "
